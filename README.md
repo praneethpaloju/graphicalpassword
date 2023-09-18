@@ -1,2 +1,3 @@
 # graphicalpassword
-A website uses spots of an image as password.
+
+Idea is of using spots of an image instead of alphanumeric characters to login to user's personal site.
