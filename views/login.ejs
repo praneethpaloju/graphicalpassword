@@ -1,0 +1,101 @@
+<%- include('partials/header.ejs'); %>
+<form action="/" method="post" autocomplete="off">
+    <div class="container">
+      <div class="box">
+        <h1 class="title"><%=title%></h1>
+        <table>
+          <tr>
+            <td>Username:</td>
+            <td>
+              <input
+                type="text"
+                id=""
+                name="username"
+                class="form-control"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Select File:</td>
+            <td>
+              <input
+                class="form-control"
+                type="file"
+                id="image-input"
+                name="inputFile"
+                required
+              />
+            </td>
+          </tr>
+          <div class="spots-div">
+            <tr>
+              <td>Spot 1:</td>
+              <td>
+                <input
+                  type="text"
+                  id=""
+                  class="input-coordinates form-control"
+                  name="spot1"
+                  readonly
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Spot 2:</td>
+              <td>
+                <input
+                  type="password"
+                  id=""
+                  class="input-coordinates form-control"
+                  readonly
+                  name="spot2"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Spot 3:</td>
+              <td>
+                <input
+                  type="password"
+                  id=""
+                  class="input-coordinates form-control"
+                  name="spot3"
+                  readonly
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Spot 4:</td>
+              <td>
+                <input
+                  type="password"
+                  id=""
+                  class="input-coordinates form-control"
+                  name="spot4"
+                  readonly
+                />
+              </td>
+            </tr>
+          </div>
+          <tr>
+            <!-- <td>
+              <a href="/forgetPass" class="forgetpasstxt">Forget Password</a>
+            </td> -->
+            <td class="signupText">
+              <a href="/signup" >New user? Signup</a>
+            </td>
+          </tr>
+        </table>
+        <button type="submit" class="btn btn-primary login-btn">
+          <%=btnText%>
+        </button>
+      </div>
+      <div class="img-disp">
+        <img id="selected-image" src="" />
+        <div id="spot-coordinates"></div>
+      </div>
+    </div>
+</form>
+
+<%- include('partials/footer.ejs'); %>
