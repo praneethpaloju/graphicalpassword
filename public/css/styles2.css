@@ -1,0 +1,40 @@
+body{
+    background-color: #F5EFE7;
+}
+
+input,textarea{
+    margin-top: 3px;
+    margin-left: 15px;
+    padding-right: 40px;
+}
+
+.header{
+    font-family: "Noto Serif";
+    position: relative;
+    text-align: center;
+    top: 30px;
+    bottom: 20px;
+}
+
+.subTitle{
+    font-family: "Poppins ";
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    left: 25px;
+    margin-bottom: 10px;
+}
+
+.Table{
+    font-family: "Noto Serif";
+    position: relative;
+    left: 16%;
+}
+
+.button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 80%;
+    width: 80px;
+}

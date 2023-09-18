@@ -1,0 +1,81 @@
+body {
+  background-color: #fea1a1;
+}
+
+.login-btn {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  @media screen and (max-width:1200px){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 950px;
+  }
+}
+
+.header {
+  position: relative;
+  top: 50px;
+  text-align: center;
+  font-family: "Poppins";
+}
+
+input {
+  margin-top: 3px;
+}
+
+.box {
+  font-family: "Fira sans";
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  padding: 3% 3% 3% 3%;
+  border-radius: 25px;
+  background-color: #b3c890;
+  margin-right: 30px;
+}
+
+.title {
+  padding-bottom: 7px;
+  font-family: "Noto Serif";
+}
+
+.forgetpasstxt {
+  position: relative;
+  top: 5px;
+  left: 26%;
+}
+
+/* Image CSS */
+#selected-image {
+  max-width: 500px;
+  max-height: 550px;
+  cursor: crosshair;
+  border-radius: 3px;
+  padding-right: 0;
+  @media screen and (max-width:1200px){
+    margin-top: 8px;
+  }
+}
+
+#spot-coordinates {
+  margin-top: 10px;
+}
+
+.signupText{
+  position: relative;
+  top: 5px;
+  left: 35%;
+}
